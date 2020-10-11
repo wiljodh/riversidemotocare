@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 // PAGE ROUTE
 Route::get('/', 'App\Http\Controllers\PageController@home');
 Route::get('/about', 'App\Http\Controllers\PageController@about');
+Route::get('/faqs', 'App\Http\Controllers\PageController@faqs');
+// Route::get('/contact', 'App\Http\Controllers\PageController@contact');
+
+// MAILER
+Route::get('/contact', 'App\Http\Controllers\EmailusController@showContactForm');
+Route::post('/contact', 'App\Http\Controllers\EmailusController@sendMail');

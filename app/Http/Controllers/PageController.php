@@ -15,5 +15,15 @@ class PageController extends Controller
     public function about()
     {
         return view('about');
-    }  
+    }
+
+    public function faqs()
+    {
+        return view('faqs');
+    }
+
+    public function contactus()
+    {
+        return view('contact');
+    }
 }

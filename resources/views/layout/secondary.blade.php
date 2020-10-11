@@ -53,7 +53,7 @@
                                     <li><a href="./blog-single.html">Blog Details</a></li>
                                 </ul>
                             </li> -->
-                            <li><a href="./contact.html">Contacts</a></li>
+                            <li><a href="/contact">Contacts</a></li>
                         </ul>
                     </nav>
                 </div>

@@ -4,8 +4,7 @@
 
 @section('container')
     
-    <body>
-        <!-- Page Preloder -->
+    <!-- Page Preloder -->
         <div id="preloder">
             <div class="loader"></div>
         </div>
@@ -199,7 +198,6 @@
                 </div>
             </div>
         </section>
-        <!-- Cta Section End -->
-    </body>
+    <!-- Cta Section End -->
     
 @endsection

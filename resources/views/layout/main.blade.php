@@ -30,7 +30,7 @@
     <header class="header-section">
         <div class="container-fluid">
             <div class="logo">
-                <a href="./index.html">
+                <a href="{{ url('/')}}">
                     <img src="img/logo.png" alt="">
                 </a>
             </div>
@@ -43,9 +43,9 @@
                 <div class="nav-menu">
                     <nav class="mainmenu mobile-menu">
                         <ul>
-                            <li class="active"><a href="./index.html">Home</a></li>
-                            <li><a href="/about">About us</a></li>
-                            <li><a href="./faqs.html">Faqs</a></li>
+                            <li class="active"><a href="{{ url('/')}}">Home</a></li>
+                            <li><a href="{{ url('/about')}}">About us</a></li>
+                            <li><a href="{{ url('/faqs')}}">Faqs</a></li>
                             <!-- <li><a href="./gallery.html">Gallery</a></li>
                             <li><a href="./blog.html">Blog</a>
                                 <ul class="dropdown">
@@ -53,7 +53,7 @@
                                     <li><a href="./blog-single.html">Blog Details</a></li>
                                 </ul>
                             </li> -->
-                            <li><a href="./contact.html">Contacts</a></li>
+                            <li><a href="{{ url('/contact')}}">Contacts</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -72,7 +72,7 @@
                 <div class="col-lg-3">
                     <div class="footer-logo-item">
                         <div class="f-logo">
-                            <a href="#"><img src="img/logo.png" alt=""></a>
+                            <a href="{{ url('/')}}"><img src="img/logo.png" alt=""></a>
                         </div>
                         <p>“Experience that makes us here, always innovating to provide the best care for your Motorcycle“</p>
                         <div class="social-links">
